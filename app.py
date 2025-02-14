@@ -22,8 +22,8 @@ if base_file is not None:
     with base_col2:
         st.image(image_buffer, caption=phash, use_container_width=False)
 
-    st.subheader('Upload comparision slides')
-    comparision_files = st.file_uploader("Upload pdf files", type=["pdf"], accept_multiple_files=True)
+    st.subheader('Upload comparison slides')
+    comparision_files = st.file_uploader("Upload one page pdf files", type=["pdf"], accept_multiple_files=True)
 
     if comparision_files:
         for comparision_file in comparision_files:
