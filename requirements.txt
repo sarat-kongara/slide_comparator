@@ -1,0 +1,8 @@
+streamlit
+pypdf
+pymupdf
+imagehash
+sentence_transformers
+torch
+torchvision
+torchaudio
